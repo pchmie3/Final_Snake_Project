@@ -211,12 +211,5 @@ public class MainActivity extends Activity {
         super.onResume();
         snakeAnimView.resume();
     }
-
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        snakeAnimView.pause();
-    }
 }
 

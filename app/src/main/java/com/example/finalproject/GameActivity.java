@@ -1,3 +1,5 @@
+//Created by Paulina Chmiel and Aliya Gilley
+
 //Looked at for inspiration:
 //https://www.instructables.com/id/How-to-Make-an-Android-Game-Snake/
 //http://zetcode.com/tutorials/javagamestutorial/snake/
@@ -7,7 +9,6 @@
 //http://gamecodeschool.com/android/coding-a-snake-game-for-android/
 
 package com.example.finalproject;
-
 
 import android.app.Activity;
 import android.content.Context;
@@ -286,6 +287,7 @@ public class GameActivity extends Activity {
 
         //right now, no pause button
         //we only have an action when there is a press on the back key
+
         public void pause() {
             playingSnake = false;
             try {
@@ -376,12 +378,6 @@ public class GameActivity extends Activity {
             break;
         }
         finish();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        snakeView.pause();
     }
 
     @Override
