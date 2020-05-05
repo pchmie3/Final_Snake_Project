@@ -1,4 +1,13 @@
+//Looked at for inspiration:
+//https://www.instructables.com/id/How-to-Make-an-Android-Game-Snake/
+//http://zetcode.com/tutorials/javagamestutorial/snake/
+//https://www.youtube.com/watch?v=bR5Ul9Bujf0
+//https://github.com/janbodnar/Java-Snake-Game
+//https://github.com/LaZyRaifur/SnakeGames
+//http://gamecodeschool.com/android/coding-a-snake-game-for-android/
+
 package com.example.finalproject;
+
 
 import android.app.Activity;
 import android.content.Context;
